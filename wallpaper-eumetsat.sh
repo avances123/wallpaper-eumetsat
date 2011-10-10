@@ -5,7 +5,6 @@ geom=$(identify -verbose $TEMPFILE | grep Geom | cut -d: -f'2' | cut -f1 -d+ | s
 width=$(echo $geom | cut -f1 -dx)
 heigth=$(echo $geom | cut -f2 -dx)
 newheigth=$(expr $heigth - 25)
-echo convert $TEMPFILE -crop ${width}x${newheigth}+0+0 $WALLPAPERIMG
 convert $TEMPFILE -crop ${width}x${newheigth}+0+0 $WALLPAPERIMG
 gconftool-2 --type string --set /desktop/gnome/background/picture_options scaled
 gconftool-2 --type string --set /desktop/gnome/background/picture_filename $WALLPAPERIMG
