@@ -3,8 +3,9 @@ Version: 0.1-1
 Architecture: amd64
 Maintainer: Fabio Rueda <avances123@gmail.com>
 Installed-Size: 35
-Section: unknown
+Section: misc
 Priority: extra
-Homepage: <insert the upstream URL, if relevant>
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Homepage: http://blog.avances123.com/wallpaper-de-imagen-de-satelite-en-tiempo-real/
+Description: It fetch a satellite image from EUMETSAT and uses it as your gnome wallpaper
+ You can choose wich zone and type of image do you want as your wallpaper in its config
+ file
