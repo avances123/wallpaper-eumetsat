@@ -1,0 +1,16 @@
+Source: wallpaper-eumetsat
+Section: misc
+Priority: extra
+Maintainer: Fabio Rueda <avances123@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), imagemagick, wget, gconf2
+Standards-Version: 3.9.2
+Homepage: http://blog.avances123.com/wallpaper-de-imagen-de-satelite-en-tiempo-real/
+Vcs-Git: git://github.com/avances123/wallpaper-eumetsat.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/wallpaper-eumetsat.git;a=summary
+
+Package: wallpaper-eumetsat
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: It fetch a satellite image from EUMETSAT and uses it as your gnome wallpaper
+ You can choose wich zone and type of image do you want as your wallpaper in its config
+ file
