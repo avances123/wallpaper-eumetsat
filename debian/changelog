@@ -1,5 +1,5 @@
-wallpaper-eumetsat (0.1-1) unstable; urgency=low
+wallpaper-eumetsat (0.1-2) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * dependecies and section added
 
- -- Fabio Rueda <avances123@gmail.com>  Mon, 10 Oct 2011 16:50:37 +0200
+ -- Fabio Rueda <avances123@gmail.com>  Mon, 10 Oct 2011 17:53:50 +0200
